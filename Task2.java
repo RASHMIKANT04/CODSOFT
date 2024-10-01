@@ -89,7 +89,6 @@ public class Task2 {
     public static void main(String[] args) {
         Task2 task = new Task2();
         BankAccount account = task.new BankAccount(1000); 
-        
         ATM atm = task.new ATM(account);
         atm.start();
     }
