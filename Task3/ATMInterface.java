@@ -1,6 +1,8 @@
+package Task3;
+
 import java.util.Scanner;
 
-public class Task2 {
+public class ATMInterface {
     class BankAccount {
         private double balance;
 
@@ -87,7 +89,7 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        Task2 task = new Task2();
+        ATMInterface task = new ATMInterface();  // Corrected instance
         BankAccount account = task.new BankAccount(1000); 
         ATM atm = task.new ATM(account);
         atm.start();
