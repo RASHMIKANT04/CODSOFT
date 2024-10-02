@@ -1,3 +1,5 @@
+package Task2;
+
 
 
 import java.util.Scanner;
@@ -33,3 +35,4 @@ public class StudentResults {
         System.out.println("Grade: " + grade);
     }
 }
+
